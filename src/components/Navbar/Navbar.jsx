@@ -7,17 +7,17 @@ const Navbar = (props) => {
     return (
         <nav className={classes.nav}>
             <div className={classes.item}>
-                <NavLink className={classes.link} to="https://endjila.github.io/demoProjectSocialMedia/profile">
+                <NavLink className={classes.link} to="/profile">
                     Profile
                 </NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink className={classes.link} to="https://endjila.github.io/demoProjectSocialMedia/dialogs">
+                <NavLink className={classes.link} to="/dialogs">
                     Messages
                 </NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink className={classes.link} to="https://endjila.github.io/demoProjectSocialMedia/users">
+                <NavLink className={classes.link} to="/users">
                     Users
                 </NavLink>
             </div>
