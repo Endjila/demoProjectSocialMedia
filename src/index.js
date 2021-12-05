@@ -8,7 +8,7 @@ import {BrowserRouter, HashRouter} from 'react-router-dom';
 import {Provider} from "react-redux";
 
 ReactDOM.render(
-    <BrowserRouter basename={"/demoProjectSocialMedia"}>
+    <BrowserRouter>
         <React.StrictMode>
             <Provider store={store}>
                 <App/>
