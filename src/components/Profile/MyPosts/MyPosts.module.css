@@ -1,0 +1,25 @@
+.postsBlock {
+    padding: 10px;
+    margin: 5px 0 0 15px;
+}
+.postsBlock h2{
+    margin: 0;
+    padding: 0;
+}
+
+.postForm textarea{
+    width: 98%;
+    height: 70px;
+}
+
+.posts {
+    margin-top: 25px;
+}
+
+.buttonAddPost{
+    float: right;
+        margin: 5px 15px 0 0;
+        outline: 0!important;
+        border: 0;
+        background: none;
+}

@@ -1,0 +1,25 @@
+.loginWrapper{
+    margin: 13em 0 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.loginWrapper h1{
+    margin-bottom: 10px;
+}
+
+.list{
+    list-style: none;
+}
+
+.rememberMe{
+    display: inline-block;
+}
+
+.buttonSignIn{
+    margin: 15px 0 0;
+    outline: 0!important;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.friendsText {
+    text-decoration: none;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.friendsAvas {
+    display: grid;
+
+    grid-template-areas:
+"ava ava ava";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.friendsAvas img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    grid-area: ava;
+}

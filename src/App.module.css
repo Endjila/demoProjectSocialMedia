@@ -1,0 +1,89 @@
+.appWrapper {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 4vh 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.appWrapperContent {
+  grid-area: c;
+  overflow: hidden;
+  padding: 1rem 1rem 0;
+  transition: all .3s ease-in-out;
+  margin-top: 40px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #777d74;
+  background-color: #f8f9fa;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777d74;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 20px;
+}
+
+:root {
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  --bs-blue: #50b5ff;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #ff9b8a;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffba68;
+    --bs-green: #2dcdb2;
+    --bs-teal: #20c997;
+    --bs-cyan: #d592ff;
+    --bs-white: #fff;
+    --bs-gray: #777d74;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #50b5ff;
+    --bs-secondary: #777d74;
+    --bs-success: #2dcdb2;
+    --bs-info: #d592ff;
+    --bs-warning: #ffba68;
+    --bs-danger: #ff9b8a;
+    --bs-light: #dee2e6;
+    --bs-gray: #adb5bd;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: "Montserrat",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}

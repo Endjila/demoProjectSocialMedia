@@ -1,0 +1,70 @@
+.body a {
+    background: linear-gradient(to top, #55EFCB 0%, #5BCAFF 100%);
+    height: 100%;
+    border-radius: 50rem;
+  }
+
+.borderButton{
+    border-radius: 50rem;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, .4);
+    background: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+.borderButton:before, .borderButton:after {
+  border-radius: 50rem;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.borderButton:before {
+  border-radius: 50rem;
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid #5BCAFF;
+  border-top: 1px solid #5BCAFF;
+  transition: 0s ease-in opacity .8s;
+}
+.borderButton:after {
+  border-radius: 50rem;
+  top: 0;
+  right: 0;
+  border-right: 1px solid #5BCAFF;
+  border-bottom: 1px solid #5BCAFF;
+  transition: 0s ease-in opacity .4s;
+}
+
+.borderButton:hover:before, 
+.borderButton:hover:after {
+  border-radius: 50rem;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.borderButton:hover:before {
+  border-radius: 50rem;
+  transition: 0s ease-in opacity 0s;
+}
+
+.borderButton:hover:after {
+  border-radius: 50rem;
+  transition: 0s ease-in opacity .4s;
+}
+
+.borderButton:hover {
+  border-radius: 50rem;
+  background: rgba(255, 255, 255, .2);
+}

@@ -1,0 +1,93 @@
+.descriptionBlock {
+    transition: all .3s ease-in-out;
+}
+
+.coverPos{
+    position: relative!important;
+}
+
+.cover{
+    border-radius: 15px!important;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    box-sizing: border-box;
+    box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
+}
+
+.editButtons{
+    flex-wrap: wrap!important;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 12rem;
+    display: flex!important;
+    margin-right: 10px;
+}
+
+.buttonLi{
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.editMode{
+    list-style: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #fff;
+    border-radius: 50rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin: 0 1.938rem 0 0;
+    font-family: 'remixicon' !important;
+    font-style: normal;
+}
+
+.editModeHide{
+    display: none;
+}
+
+.personInfo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    text-align: center!important;
+}
+
+.userPhoto {
+    height: 200px;
+    border-radius: 50rem;
+    border: 1px solid rgba(0,0,0,.1);
+    height: auto;
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+    box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
+}
+
+.profileName{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3f414d;
+    font-size: calc(1.29589rem + .55065vw);
+}
+
+.profileStatus{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3f414d;
+}
+
+.data{
+    position: relative;
+    margin-top: 105px;
+}

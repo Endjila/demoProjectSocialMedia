@@ -1,0 +1,41 @@
+.nav {
+    position: relative;
+    grid-area: n;
+    padding: 20px;
+    margin-top: 35px;
+    height: 100vh;
+    box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
+    background: #fff;
+}
+
+.item a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #777d74;
+    position: relative;
+    padding: 0.938rem;
+    line-height: 1.125rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.link:active {
+    background: rgba(80,181,255,.1);
+    color: #50b5ff;
+    text-decoration: none;
+}
+
+.separatedDownText a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #777d74;
+}

@@ -1,0 +1,26 @@
+.users{
+    display: block;
+}
+
+.users li{
+    float: left;
+    width: 25%;
+}
+
+.userWrapper{
+    text-align: center;
+    list-style: none;
+}
+
+.userPhoto {
+    height: 100px;
+    border-radius: 80px;
+}
+
+.buttonFollowFlow{
+    margin: 5px 0 50px;
+    outline: 0!important;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}

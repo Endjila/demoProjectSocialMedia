@@ -1,0 +1,92 @@
+.profileData{
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    padding: 0 15px 15px;
+}
+
+.pointAboutInfo{
+    list-style: none;
+}
+
+.contactField,
+.contact,
+.aboutJobField,
+.name{
+    display: inline-block;
+}
+
+.nameField{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.nameField input{
+    width: 300px;
+}
+
+.aboutJob{
+    display: inline-block;
+    text-align: center!important;
+    line-height: 2.5rem;
+    padding: 0 75px 10px 0;
+    margin: 15px 0 0;
+}
+
+.myProfSkillsField{
+    display: inline-block;
+    text-align: center!important;
+    padding-bottom: 10px;
+}
+
+.myProfSkillsField textarea {
+    margin-left: 10px;
+    width: 400px;
+    vertical-align: middle;
+}
+
+.yesMark,
+.noMark{
+    width: 18px;
+    height: auto;
+}
+
+.aboutMe h2{
+    padding: 0;
+    margin: 0 0;
+    bottom: 0;
+    display: inline-table;
+}
+
+.aboutMe textarea{
+    padding: 0;
+    margin: 0 7px 0;
+    top: 0;
+    width: 500px;
+    height: 60px;
+}
+
+.contacts{
+    padding: 0;
+    margin: 13px 0 0;
+}
+
+.contact{
+    margin-left: 7px;
+    margin-right: auto;
+}
+
+.contactField {
+    margin-left: 15px;
+}
+
+.contactField input{
+    width: 300px;
+}
+
+.buttonSave{
+    margin: 15px 0 30px 450px;
+    outline: 0!important;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
