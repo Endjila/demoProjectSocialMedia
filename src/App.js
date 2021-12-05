@@ -40,11 +40,11 @@ class App extends React.Component {
                 <div className={classes.appWrapperContent}>
                     <Suspense fallback={<Preloader />}>
                         <Routes>
-                            <Route path="/login" element={<LoginContainer />} />
-                            <Route path="/profile" element={<ProfileContainer />} />
-                            <Route path="/profile/:userId" element={<ProfileContainer />} />
-                            <Route path="/dialogs/*" element={<DialogsContainer />} />
-                            <Route path="/users/*" element={<UsersContainer />} />
+                            <Route path="https://endjila.github.io/demoProjectSocialMedia/login" element={<LoginContainer />} />
+                            <Route path="https://endjila.github.io/demoProjectSocialMedia/profile" element={<ProfileContainer />} />
+                            <Route path="https://endjila.github.io/demoProjectSocialMediaprofile/:userId" element={<ProfileContainer />} />
+                            <Route path="https://endjila.github.io/demoProjectSocialMedia/dialogs/*" element={<DialogsContainer />} />
+                            <Route path="https://endjila.github.io/demoProjectSocialMedia/users/*" element={<UsersContainer />} />
                         </Routes>
                     </Suspense>
                 </div>
